@@ -3,36 +3,36 @@ let root = document.documentElement;
 function setcolor_1() {
     var bgdiv = document.getElementById('bgimg');
     root.style.setProperty(' --body_bgcolor', 'crimson'); 
-    root.style.setProperty('--link', 'crimson');
-    root.style.setProperty('--alink', '#fd1340');
-    root.style.setProperty('--flink', '#fd1340');
-    root.style.setProperty('--hlink', '#fd1340');
-    root.style.setProperty('--vlink', 'crimson');
+    root.style.setProperty('--link', '#d3d3d3');
+    root.style.setProperty('--alink', 'crimson');
+    root.style.setProperty('--flink', 'crimson');
+    root.style.setProperty('--hlink', 'crimson');
+    root.style.setProperty('--vlink', '#d3d3d3');
     root.style.setProperty('--dlink_bg', 'crimson');
     root.style.setProperty('--dlink_abg', '#fd1340');
     root.style.setProperty('--dlink_fbg', '#fd1340');
     root.style.setProperty('--dlink_hbg', '#fd1340');
     root.style.setProperty('--dlink_vbg', 'crimson');
     root.style.setProperty('--contentcolor', 'crimson');
-    root.style.setProperty('--bgfiltercolor', 'rgba(126, 126, 126, 0.38)');
+    root.style.setProperty('--bgfiltercolor', 'rgba(126, 126, 126, 0)');
     bgdiv.style.backgroundImage = "url(../graphics/bg.jpg)";
 }
 
 function setcolor_2() {
     var bgdiv = document.getElementById('bgimg');
     root.style.setProperty(' --body_bgcolor', '#3498DB');
-    root.style.setProperty('--link', '#3498DB');
-    root.style.setProperty('--alink', '#2980B9');
-    root.style.setProperty('--flink', '#2980B9');
-    root.style.setProperty('--hlink', '#2980B9');
-    root.style.setProperty('--vlink', '#3498DB');
+    root.style.setProperty('--link', '#d3d3d3');
+    root.style.setProperty('--alink', '#3498DB');
+    root.style.setProperty('--flink', '#3498DB');
+    root.style.setProperty('--hlink', '#3498DB');
+    root.style.setProperty('--vlink', '#d3d3d3');
     root.style.setProperty('--dlink_bg', '#3498DB');
     root.style.setProperty('--dlink_abg', '#2980B9');
     root.style.setProperty('--dlink_fbg', '#2980B9');
     root.style.setProperty('--dlink_hbg', '#2980B9');
     root.style.setProperty('--dlink_vbg', '#3498DB');
     root.style.setProperty('--contentcolor', '#3498DB');
-    root.style.setProperty('--bgfiltercolor', 'rgba(126, 126, 126, 0.25)');
+    root.style.setProperty('--bgfiltercolor', 'rgba(126, 126, 126, 0)');
     bgdiv.style.backgroundImage = 'url(../graphics/bg2.jpg)';
 }
 
