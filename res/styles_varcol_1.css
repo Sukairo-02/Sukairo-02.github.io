@@ -5,11 +5,11 @@
     --header_bgcolor: #262626;
     --header_textcolor: #d3d3d3;
     --header_size: 60px;
-    --link: crimson;
-    --alink: #fd1340;
-    --flink: #fd1340;
-    --hlink: #fd1340;
-    --vlink: crimson;
+    --link: #d3d3d3;
+    --alink: crimson;
+    --flink: crimson;
+    --hlink: crimson;
+    --vlink: #d3d3d3;
     --dlink_bg: crimson;
     --dlink_abg: #fd1340;
     --dlink_fbg: #fd1340;
@@ -25,5 +25,5 @@
     --contentcolor: crimson;
     --footer_bgcolor: #181818;
     --footer_textcolor: #b7b7b7;
-    --bgfiltercolor: rgba(126, 126, 126, 0.38);
+    --bgfiltercolor: rgba(126, 126, 126, 0);
 }
