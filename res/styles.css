@@ -87,7 +87,7 @@ h1 {
     transform: translateY(-0.5rem);
     transition: border-color 0.5s ease;
     -webkit-transition: border-color 0.5s ease;
-    z-index: 95;
+    z-index: 9;
 }
 
 .p:hover h2::before,
@@ -382,7 +382,6 @@ footer {
     margin-left: auto;
     margin-right: auto;
     width: 50%;
-    position: center;
     border: 3px solid var(--contentcolor);
     border-radius: 3px;
     transition: transform 1s;
@@ -394,4 +393,5 @@ footer {
 
 .p img:hover {
     transform: scale(2);
+    z-index: 96;
 }
