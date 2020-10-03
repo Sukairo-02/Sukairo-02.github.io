@@ -58,6 +58,16 @@ window.onclick = function (event) {
     }
 }
 
+var images = [];
+function preload() {
+    for (var i = 0; i < arguments.length; i++) {
+        images[i] = new Image();
+        images[i].src = preload.arguments[i];
+    }
+}
+
+document.addEventListener("DOMContentLoaded", preload("../graphics/bg.jpg", "../graphics/bg2.jpg"));
+
 window.onscroll = function () { scrollFunction() };
 
 function scrollFunction() {
