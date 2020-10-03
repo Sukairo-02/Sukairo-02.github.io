@@ -140,6 +140,8 @@ h1 {
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center center;
+    transition: background-image ease 1s;
+    -webkit-transition: background-image ease 1s;
 }
 
 .flex {
@@ -294,6 +296,8 @@ footer {
     color: var(--footer_textcolor) !important;
     text-decoration: none;
     cursor: pointer;
+    transition: none;
+    -webkit-transition: none;
 }
 
 .footer_content > a:hover {
@@ -327,6 +331,14 @@ footer {
     background-color: rgba(0,0,0,0);
     transition: background-color ease 0.5s;
     -webkit-transition: background-color ease 0.5s;
+}
+
+.dropbtn .headeritem {
+    transition: transform ease 1s;
+}
+
+.rotateIt {
+    transform: rotateZ(-90deg);
 }
 
 .dropbtn:hover, .dropbtn:focus {
@@ -391,8 +403,8 @@ footer {
     width: 50%;
     border: 3px solid var(--contentcolor);
     border-radius: 3px;
-    transition: width ease 1s;
-    -webkit-transition: width ease 1s;
+    transition: width ease-in-out 1s;
+    -webkit-transition: width ease-in-out 1s;
     max-height: 1000px;
     margin-top: 45px;
 }
