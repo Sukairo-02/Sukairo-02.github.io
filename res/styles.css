@@ -383,14 +383,12 @@ footer {
     width: 50%;
     border: 3px solid var(--contentcolor);
     border-radius: 3px;
-    transition: transform 1s;
-    -webkit-transition: transform 1s;
-    max-height: 500px;
-    max-width: 900px;
+    transition: width ease-in 0.5s;
+    -webkit-transition: width ease-in 0.5s;
+    max-height: 1000px;
     margin-top: 45px;
 }
 
 .p img:hover {
-    transform: scale(2);
-    z-index: 96;
+    width: 100%;
 }
