@@ -359,13 +359,13 @@ footer {
     display: block;
     position: absolute;
     margin-top: 6px;
-    top:-32px;
+    top:-60px;
     z-index:-1;
     background-color: #f1f1f1;
     min-width: 160px;
     box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
-    transition: top ease-in-out 1s;
-    -webkit-transition: top ease-in-out 1s;
+    transition: top ease-in-out 1s 0.5s;
+    -webkit-transition: top ease-in-out 1s 0.5s;
 }
 
 /* Links inside the dropdown */
