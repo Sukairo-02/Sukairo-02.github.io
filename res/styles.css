@@ -359,7 +359,7 @@ footer {
     display: block;
     position: absolute;
     margin-top: 6px;
-    top:-30px;
+    top:-32px;
     z-index:-1;
     background-color: #f1f1f1;
     min-width: 160px;
