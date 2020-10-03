@@ -38,16 +38,21 @@ function setcolor_2() {
 
 function dropDown() {
     document.getElementById("Dropdown").classList.toggle("show");
+    document.getElementById("MenuButton").classList.toggle("rotateIt");
 }
 
 window.onclick = function (event) {
     if (!event.target.matches('.dropbtn')) {
         var dropdowns = document.getElementsByClassName("dropdown-content");
+        var dropimg = document.getElementById("MenuButton");
         var i;
         for (i = 0; i < dropdowns.length; i++) {
             var openDropdown = dropdowns[i];
             if (openDropdown.classList.contains('show')) {
                 openDropdown.classList.remove('show');
+            }
+            if (dropimg.classList.contains("rotateIt")) {
+                dropimg.classList.toggle("rotateIt");
             }
         }
     }
